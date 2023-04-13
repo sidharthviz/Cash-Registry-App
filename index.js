@@ -34,12 +34,9 @@ const availableNotes = [2000, 500, 100, 20, 10, 5, 1];
 $("#next").on("click", function() {
    $("#cash-given").show();
 }) 
-
-
  function hideMessage(){
     message.style.display = "block";
  }
-
 function showMessage(error){
     message.style.display = "block"; 
     message.innerText = error;    
